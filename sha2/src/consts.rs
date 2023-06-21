@@ -81,9 +81,10 @@ pub const H256_224: State256 = [
     0xffc00b31, 0x68581511, 0x64f98fa7, 0xbefa4fa4,
 ];
 
+// initial state changed
 pub const H256_256: State256 = [
-    0x6a09e667, 0xbb67ae85, 0x3c6ef372, 0xa54ff53a,
-    0x510e527f, 0x9b05688c, 0x1f83d9ab, 0x5be0cd19,
+    0x6f603c40, 0xbb0fba38, 0xec7af3ae, 0x1d558485,
+    0x1c63c64c, 0x49beb4bf, 0xe054f7f9, 0x07114098,
 ];
 
 pub const H512_224: State512 = [
